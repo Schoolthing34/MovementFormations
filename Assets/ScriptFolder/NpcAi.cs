@@ -54,7 +54,7 @@ public class UnitFormationAndMovementScript : MonoBehaviour
                
                 float XPosOffset = (middle - i) * UnitSize;
                 Vector3 NewPosition = path.corners[0]-new Vector3(XPosOffset,0,0);
-
+                Debug.Log(NewPosition);
                 units[i].SetPosition(NewPosition);
             }
             else if(i==middle)

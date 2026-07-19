@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\johnn\\Documents\\GitHub\\IrishWarGame\\MovementFormations\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9FBBC7DA-2CD5-9206-7FFB-B08B0E1E8B97}|Assembly-CSharp.csproj|C:\\Users\\johnn\\Documents\\GitHub\\IrishWarGame\\MovementFormations\\assets\\scriptfolder\\units.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FBBC7DA-2CD5-9206-7FFB-B08B0E1E8B97}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptfolder\\units.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9FBBC7DA-2CD5-9206-7FFB-B08B0E1E8B97}|Assembly-CSharp.csproj|c:\\users\\johnn\\documents\\github\\irishwargame\\movementformations\\assets\\scriptfolder\\npcai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FBBC7DA-2CD5-9206-7FFB-B08B0E1E8B97}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptfolder\\npcai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FBBC7DA-2CD5-9206-7FFB-B08B0E1E8B97}|Assembly-CSharp.csproj|C:\\Users\\johnn\\Documents\\GitHub\\IrishWarGame\\MovementFormations\\assets\\scriptfolder\\unitspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FBBC7DA-2CD5-9206-7FFB-B08B0E1E8B97}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptfolder\\unitspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +22,42 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UnitSpawner.cs",
+              "DocumentMoniker": "C:\\Users\\johnn\\Documents\\GitHub\\IrishWarGame\\MovementFormations\\Assets\\ScriptFolder\\UnitSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\ScriptFolder\\UnitSpawner.cs",
+              "ToolTip": "C:\\Users\\johnn\\Documents\\GitHub\\IrishWarGame\\MovementFormations\\Assets\\ScriptFolder\\UnitSpawner.cs",
+              "RelativeToolTip": "Assets\\ScriptFolder\\UnitSpawner.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T14:24:24.811Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Units.cs",
+              "DocumentMoniker": "C:\\Users\\johnn\\Documents\\GitHub\\IrishWarGame\\MovementFormations\\Assets\\ScriptFolder\\Units.cs",
+              "RelativeDocumentMoniker": "Assets\\ScriptFolder\\Units.cs",
+              "ToolTip": "C:\\Users\\johnn\\Documents\\GitHub\\IrishWarGame\\MovementFormations\\Assets\\ScriptFolder\\Units.cs",
+              "RelativeToolTip": "Assets\\ScriptFolder\\Units.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwB4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T14:11:30.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "NpcAi.cs",
               "DocumentMoniker": "C:\\Users\\johnn\\Documents\\GitHub\\IrishWarGame\\MovementFormations\\Assets\\ScriptFolder\\NpcAi.cs",
               "RelativeDocumentMoniker": "Assets\\ScriptFolder\\NpcAi.cs",
               "ToolTip": "C:\\Users\\johnn\\Documents\\GitHub\\IrishWarGame\\MovementFormations\\Assets\\ScriptFolder\\NpcAi.cs",
               "RelativeToolTip": "Assets\\ScriptFolder\\NpcAi.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAhwDkAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-16T13:57:35.074Z",
               "EditorCaption": ""
