@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1706.6667
     height: 976
   m_ShowMode: 4
-  m_Title: Console
+  m_Title: Scene
   m_RootView: {fileID: 5}
   m_MinSize: {x: 875, y: 492}
   m_MaxSize: {x: 10000, y: 10000}
@@ -34,7 +34,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -43,14 +43,14 @@ MonoBehaviour:
     y: 613.3333
     width: 993.33325
     height: 306.6667
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 14}
+  m_MinSize: {x: 232, y: 276}
+  m_MaxSize: {x: 10002, y: 10026}
+  m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
   - {fileID: 14}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -179,7 +179,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 112}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 75
+  controlID: 36
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -247,8 +247,8 @@ MonoBehaviour:
     y: 0
     width: 319.33334
     height: 920
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 226}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -821,9 +821,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 66.158844, y: 5.2800007, z: 41.170834}
+    m_Target: {x: 55.099075, y: 6.073824, z: 29.508507}
     speed: 2
-    m_Value: {x: 66.15884, y: 5.28, z: 41.17083}
+    m_Value: {x: 55.099075, y: 6.073824, z: 29.508507}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -869,13 +869,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    m_Target: {x: -0.10430131, y: 0.60316575, z: -0.07996658, w: -0.7867146}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: 0}
+    m_Value: {x: -0.105087884, y: 0.6030848, z: -0.08056964, w: -0.78660905}
   m_Size:
-    m_Target: 1.3830993
+    m_Target: 25.333866
     speed: 2
-    m_Value: 1.3830998
+    m_Value: 25.333866
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1372,22 +1372,30 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs:
-      - m_Data: -22444
+      - m_Data: 34736
       m_LastClickedID:
-        m_Data: -22444
+        m_Data: 34736
       m_ExpandedIDs:
-      - m_Data: -9018
-      - m_Data: -8990
-      - m_Data: -8962
-      - m_Data: -8934
-      - m_Data: -8906
-      - m_Data: -8878
-      - m_Data: -8850
-      - m_Data: -8822
-      - m_Data: -8534
-      - m_Data: -1290
-      - m_Data: 34882
-      - m_Data: 38154
+      - m_Data: -21246
+      - m_Data: -21214
+      - m_Data: -21182
+      - m_Data: -19746
+      - m_Data: -17982
+      - m_Data: -17758
+      - m_Data: -16698
+      - m_Data: -13484
+      - m_Data: -11646
+      - m_Data: -9176
+      - m_Data: -1508
+      - m_Data: -1478
+      - m_Data: -1448
+      - m_Data: -1418
+      - m_Data: -1386
+      - m_Data: -1356
+      - m_Data: -1326
+      - m_Data: -1296
+      - m_Data: -1294
+      - m_Data: 34820
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1513,7 +1521,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/ScriptFolder
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1523,7 +1531,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/ScriptFolder
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\johnn\Documents\GitHub\IrishWarGame\MovementFormations
   m_LockTracker:
@@ -1532,12 +1540,12 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
-    - m_Data: 37706
+    - m_Data: 36322
     m_LastClickedID:
-      m_Data: 37706
+      m_Data: 36322
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 34972
+    - m_Data: 34912
     - m_Data: 1000000000
     - m_Data: 2147483647
     m_RenameOverlay:
@@ -1572,7 +1580,7 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 34972
+    - m_Data: 34912
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1600,9 +1608,9 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
     m_SelectedInstanceIDs:
-    - m_Data: 38154
-    m_LastClickedInstanceID: 38154
-    m_HadKeyboardFocusLastEvent: 0
+    - m_Data: 34736
+    m_LastClickedInstanceID: 34736
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: []
     m_RenameOverlay:
       m_UserAcceptedRename: 0

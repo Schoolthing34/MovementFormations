@@ -4,6 +4,7 @@ using System.IO;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.UIElements;
 using static UnityEngine.GraphicsBuffer;
 
 public class Units : MonoBehaviour
@@ -12,6 +13,7 @@ public class Units : MonoBehaviour
     public Vector3 GoPosition;
     private NavMeshAgent agent;
     public int speed;
+    public GameObject MovingUnitVisual;
    // private NavMeshPath path;
    // public Vector3 CurrentVelocity;
 
@@ -20,8 +22,11 @@ public class Units : MonoBehaviour
     {
        
     }
-
-    public void SetPosition(Vector3 newPosition)
+    public void SetCurrentPosition(Vector3 NewPosition)
+    {
+        this.transform.position = NewPosition;
+    }
+    public void SetMovementPosition(Vector3 newPosition)
     {
         //Debug.Log("So we got in here"+newPosition);
         GoPosition = newPosition;
@@ -29,7 +34,7 @@ public class Units : MonoBehaviour
         
        // Debug.Log("So we got in here2");
         Target.transform.position = GoPosition;
-        Debug.Log(agent);
+        
        // agent.SetDestination(GoPosition);
       //  agent.CalculatePath(Target.transform.position, agent.path);
         // Debug.Log("So we got in here3");
@@ -42,21 +47,9 @@ public class Units : MonoBehaviour
     {
         if (GoPosition != null)
         {
-            //Debug.Log("Hey1");
-            // CurrentVelocity = GetComponent<Rigidbody>().linearVelocity;
-            // Calculate direction to the target
-                Vector3 direction = (GoPosition - transform.position).normalized;
-
-                // Move the enemy towards the target
-                transform.position += direction * speed * Time.deltaTime;
-
-               
-                if (direction != Vector3.zero)
-                {
-                    Quaternion toRotation = Quaternion.LookRotation(Vector3.forward, direction);
-                    transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, 100f);
-               }
-            
+            //i dont know why this works but it seems i cant move the capsues somthign is stopping them from moving 
+            this.transform.position = Vector3.MoveTowards(transform.position, GoPosition, speed * Time.deltaTime);
+           // Debug.Log("wE SHOULD BE MOVING");
 
         }
 
